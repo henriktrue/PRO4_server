@@ -73,4 +73,4 @@ btn5_l.addEventListener('click', function(){
 btn5_r.addEventListener('click', function(){
   socket.emit('m5_r', {
   });
-});
+});s
