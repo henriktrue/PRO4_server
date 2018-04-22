@@ -1,5 +1,5 @@
 // Make connection
-var socket = io.connect('https://pro4team2.herokuapp.com');
+var socket = io.connect('https://pro4team2.herokuapp.com/');
 
 // Query DOM
 var message = document.getElementById('message'),
@@ -73,4 +73,4 @@ btn5_l.addEventListener('click', function(){
 btn5_r.addEventListener('click', function(){
   socket.emit('m5_r', {
   });
-});s
+});
