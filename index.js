@@ -2,15 +2,9 @@ var express = require('express');
 var socket = require('socket.io');
 
 //App setup
-var app = require('express')();
-var http = require('http').Server(app);
+var app = express();
 var server = app.listen(4000, function(){
   console.log('listening to requests on port 4000');
-});
-
-// Her henter vi
-app.get('/', function(req, res){
-  res.sendFile(__dirname + '/public/index.html');
 });
 
 // Static files
