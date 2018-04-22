@@ -1,0 +1,110 @@
+body{
+    font-family: 'Nunito';
+}
+
+#m1{
+    font-size: 18px;
+    color: #575ed8;
+    position: absolute;
+    left: 680px;
+    top: 30px;
+}
+
+#m2{
+    font-size: 18px;
+    color: #575ed8;
+    position: absolute;
+    left: 680px;
+    top: 230px;
+}
+
+#m3{
+    font-size: 18px;
+    color: #575ed8;
+    position: absolute;
+    left: 680px;
+    top: 430px;
+}
+
+#m4{
+    font-size: 18px;
+    color: #575ed8;
+    position: absolute;
+    left: 680px;
+    top: 630px;
+}
+
+#m5{
+  font-size: 18px;
+  color: #575ed8;
+  position: absolute;
+  left: 680px;
+  top: 830px;
+}
+
+#m1_l{
+  position: absolute;
+  left: 10px;
+  top: 100px;
+}
+
+#m1_r{
+    position: absolute;
+    left: 720px;
+    top: 100px;
+}
+
+#m2_l{
+  position: absolute;
+  left: 10px;
+  top: 300px;
+}
+
+#m2_r{
+    position: absolute;
+    left: 720px;
+    top: 300px;
+}
+
+#m3_l{
+  position: absolute;
+  left: 10px;
+  top: 500px;
+}
+
+#m3_r{
+    position: absolute;
+    left: 720px;
+    top: 500px;
+}
+
+#m4_l{
+  position: absolute;
+  left: 10px;
+  top: 700px;
+}
+
+#m4_r{
+    position: absolute;
+    left: 720px;
+    top: 700px;
+}
+
+#m5_l{
+  position: absolute;
+  left: 10px;
+  top: 900px;
+}
+
+#m5_r{
+    position: absolute;
+    left: 720px;
+    top: 900px;
+}
+
+button{
+    background: #575ed8;
+    color: #fff;
+    width: 700px;
+    heght: 50%;
+}
