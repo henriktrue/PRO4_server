@@ -1,22 +1,17 @@
-// koden der kører på webserveren
-var app = require('express')();
-var http = require('http').Server(app);
-var io = require('socket.io')(http, { origins: '*:*',  pingInterval: 5000, pingTimeout: 2500,});
+var express = require('express');
+var socket = require('socket.io');
 
-//Listening port 4000 fra web serverens perspektiv
-var listening_port = process.env.PORT || 4000; 
-
-// Her hentes der
-app.get('/', function(req, res){
-  res.sendFile(__dirname + '/index.html');
-});
-
-app.get('/robot', function(req, res){
-  res.sendFile(__dirname + '/robot.html');
+//App setup
+var app = express();
+var server = app.listen(4000, function(){
+  console.log('listening to requests on port 4000');
 });
 
 // Static files
 app.use(express.static('public'));
+
+//socket setup
+var io = socket(server);
 
 io.on('connection', function(socket){
   console.log('connection established', socket.id)
@@ -65,8 +60,4 @@ io.on('connection', function(socket){
   socket.on('m5_r', function(data){
     io.sockets.emit('m5_r', data);
   });
-});
-
-http.listen(listening_port, '0.0.0.0', function(){
-    console.log('listening on', listening_port);
 });
