@@ -3,7 +3,7 @@ var socket = require('socket.io');
 
 //App setup
 var app = express();
-var server = app.listen(80, function(){
+var server = app.listen(process.env.PORT || 80, function(){
   console.log('listening to requests on port 80');
 });
 
