@@ -1,110 +1,113 @@
 body{
-    font-family: 'Nunito';
+   font-family: 'Nunito';
+   background-image: url("robot.png");
+   background-repeat: no-repeat, repeat;
+   background-color: #dddddd;
 }
 
 #m1{
     font-size: 18px;
     color: #575ed8;
     position: absolute;
-    left: 680px;
-    top: 30px;
+	left: 280px;
+    top: 50px;
 }
 
 #m2{
     font-size: 18px;
     color: #575ed8;
     position: absolute;
-    left: 680px;
-    top: 230px;
+	left: 280px;
+    top: 150px;
 }
 
 #m3{
     font-size: 18px;
     color: #575ed8;
     position: absolute;
-    left: 680px;
-    top: 430px;
+	left: 280px;
+    top: 250px;
 }
 
 #m4{
     font-size: 18px;
     color: #575ed8;
     position: absolute;
-    left: 680px;
-    top: 630px;
+	left: 280px;
+    top: 350px;
 }
 
 #m5{
   font-size: 18px;
   color: #575ed8;
   position: absolute;
-  left: 680px;
-  top: 830px;
+  left: 280px;
+  top: 450px;
 }
 
 #m1_l{
   position: absolute;
   left: 10px;
-  top: 100px;
+  top: 90px;
 }
 
 #m1_r{
     position: absolute;
-    left: 720px;
-    top: 100px;
+    left: 320px;
+    top: 90px;
 }
 
 #m2_l{
   position: absolute;
   left: 10px;
-  top: 300px;
+  top: 190px;
 }
 
 #m2_r{
     position: absolute;
-    left: 720px;
-    top: 300px;
+    left: 320px;
+    top: 190px;
 }
 
 #m3_l{
   position: absolute;
   left: 10px;
-  top: 500px;
+  top: 290px;
 }
 
 #m3_r{
     position: absolute;
-    left: 720px;
-    top: 500px;
+    left: 320px;
+    top: 290px;
 }
 
 #m4_l{
   position: absolute;
   left: 10px;
-  top: 700px;
+  top: 390px;
 }
 
 #m4_r{
     position: absolute;
-    left: 720px;
-    top: 700px;
+    left: 320px;
+    top: 390px;
 }
 
 #m5_l{
   position: absolute;
   left: 10px;
-  top: 900px;
+  top: 490px;
 }
 
 #m5_r{
     position: absolute;
-    left: 720px;
-    top: 900px;
+    left: 320px;
+    top: 490px;
 }
 
 button{
     background: #575ed8;
     color: #fff;
-    width: 700px;
+    width: 300px;
     heght: 50%;
 }
